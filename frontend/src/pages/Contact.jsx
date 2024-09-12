@@ -79,7 +79,7 @@ const Contact = ({setShow}) => {
                         <h2 className='font-serif font-semibold text-lg'>Provide your information to send message.</h2>
                     </div>
                     <div className='w-[100%]'>
-                        <Form className='' labelAlign='left' onFinish={handleSubmit} autoComplete='off'
+                        <Form  labelAlign='left' onFinish={handleSubmit} autoComplete='off'
                             labelCol={{
                                 md:{span:4},
                                 xs:{span:24}
@@ -87,13 +87,13 @@ const Contact = ({setShow}) => {
                             wrapperCol={{
                                 md:{offset:1}
                             }}>
-                            <Form.Item label={<span className="font-serif">E-mail</span>}   name='email' rules={[
+                            <Form.Item className='md:mb-3 xs:mb-1' label={<span className="font-serif">E-mail</span>}  name='email' rules={[
                                 {required:true,message:'Enter your e-mail'},
                                 {type:'email',message:'Please enter a valid e-mail'}]} hasFeedback>
                                 <Input className='border-black hover:border-emerald-500' placeholder='E-mail'></Input>
                             </Form.Item>
 
-                            <Form.Item label={<span className="font-serif">Name</span>} name='name' rules={[
+                            <Form.Item className='md:mb-3 xs:mb-1' label={<span className="font-serif">Name</span>} style={{sm:{ marginBottom: '1vh' }}} name='name' rules={[
                                 {required:true,message:'Enter your Name'}]} hasFeedback>
                                 <Input className='border-black hover:border-emerald-500' placeholder='Name'></Input>
                             </Form.Item>
