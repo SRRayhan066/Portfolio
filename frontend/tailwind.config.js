@@ -11,7 +11,7 @@ export default {
         silkscreen: ['Silkscreen', 'sans-serif'],
       },
       screens: {
-        'xs' : '330px'
+        'xs' : '230px',
       }
     },
   },
