@@ -5,7 +5,8 @@ import { useState } from 'react';
 
 const Navbar = () => {
     const [isOpen,setIsOpen] = useState(false);
-    const resumeLink = 'https://drive.google.com/uc?export=download&id=1Nhdc4Z5hQ0_QOT0Zp03sNpCD2k_7k9Dq';
+    const resumeLink = 'https://drive.google.com/uc?export=download&id=1C8NyiHBk7SoWJQrPjXK_7rlAd_e3S1tV';
+    
 
     const toggleMenu = () =>{
         setIsOpen(!isOpen);

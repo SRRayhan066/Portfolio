@@ -3,7 +3,7 @@ import myImage from '../assets/image.png';
 
 
 const Hero = () => {
-    const resumeLink = 'https://drive.google.com/uc?export=download&id=1Nhdc4Z5hQ0_QOT0Zp03sNpCD2k_7k9Dq';
+    const resumeLink = 'https://drive.google.com/uc?export=download&id=1C8NyiHBk7SoWJQrPjXK_7rlAd_e3S1tV';
     return (
         <div id='home' className='flex
                         lg:flex-row lg:justify-center lg:items-center lg:px-0
