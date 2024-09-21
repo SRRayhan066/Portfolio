@@ -5,7 +5,7 @@ import Hero from './pages/Hero';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
-
+import { Analytics } from "@vercel/analytics/react"
 
 import { Alert } from 'antd';
 
@@ -28,6 +28,7 @@ const App = () => {
       <About/>
       <Project/>
       <Contact setShow={setShow}/>
+      <Analytics/>
     </div>
   );
 };
