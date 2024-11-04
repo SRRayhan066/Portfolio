@@ -8,11 +8,14 @@ import officeroom from '../assets/officeroom.png';
 import database from '../assets/database.png';
 import port from '../assets/portfolioo.png';
 import ftms from '../assets/ftms.png';
+import projectPulse from '../assets/projectpulse.png'
+
 import gameConsol from '../assets/console.png';
 import android from '../assets/android.png';
 import databaseStorage from '../assets/database-storage.png';
 import all from '../assets/select.png';
 import internet from '../assets/internet.png';
+
 
 const Project = () => {
 
@@ -108,6 +111,14 @@ const Project = () => {
             tech: ['Frontend: ReactJs','Backend: NodeJs','Database: MySQL'],
             link: 'https://github.com/SRRayhan066/DNCC-Waste-Management',
             image: dncc
+        },
+        {
+            type: 'Web-Tech',
+            title: 'Project Pulse',
+            description: 'A multi-user project and task management system',
+            tech: ['Frontend: ReactJs','Backend: NodeJs','Database: MongoDB'],
+            link: 'https://github.com/SRRayhan066/Project-Pulse',
+            image: projectPulse
         },
     ]
 
